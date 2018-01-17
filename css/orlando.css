@@ -106,7 +106,7 @@ header #logotipo {
 	left: -96px;
 }
 #menu {
-	margin: 37px 0;
+	margin: 30px 0;
 	position: absolute;
 	right: 0;
 
@@ -131,9 +131,24 @@ header #logotipo {
 #menu li.search ::-webkit-input-placeholder {
 	color: #fff;
 }
+#menu li.search button {
+	background: none;
+	border: none;
+	position: absolute;
+	right: 3px;
+	top: 7px;
+}
+#menu li.search button i {
+	font-size: 14px;
+	color: rgba(255, 255, 255, .5);
+
+}
 #menu li a {
 	color: #FFF;
 	font-size: 16px;
 	padding: 10px 25px;
 	font-weight: bold;
+}
+#menu li.search .input-group {
+	top: 8px;
 }
